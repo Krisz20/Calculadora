@@ -21,6 +21,8 @@ public class Main extends JFrame {
         add(numero1);
 
         add(new JLabel("Numero 2:"));
+        JTextField numero2 = new JTextField();
+        add(numero2);
     }
 
     public static void main(String[] args) {
