@@ -26,6 +26,7 @@ public class Main extends JFrame {
 
         add(new JLabel("Resultado:"));
         JTextField resultado = new JTextField();
+        resultado.disable();
         add(resultado);
     }
 
