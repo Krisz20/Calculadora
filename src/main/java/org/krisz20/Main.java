@@ -23,6 +23,8 @@ public class Main extends JFrame {
         add(new JLabel("Numero 2:"));
         JTextField numero2 = new JTextField();
         add(numero2);
+
+        add(new JLabel("Resultado:"));
     }
 
     public static void main(String[] args) {
