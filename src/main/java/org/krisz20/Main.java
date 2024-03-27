@@ -17,6 +17,8 @@ public class Main extends JFrame {
         setLayout(new GridLayout(4, 2));
 
         add(new JLabel("Numero 1:"));
+        JTextField numero1 = new JTextField();
+        add(numero1);
     }
 
     public static void main(String[] args) {
