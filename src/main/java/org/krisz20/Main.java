@@ -28,6 +28,12 @@ public class Main extends JFrame {
         JTextField resultado = new JTextField();
         resultado.disable();
         add(resultado);
+
+        JButton calcular = new JButton("Calcular");
+        calcular.addActionListener(e -> {
+            resultado.setText(numero1.getText() + numero2.getText());
+        });
+        add(calcular);
     }
 
     public static void main(String[] args) {
