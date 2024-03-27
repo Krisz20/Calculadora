@@ -26,7 +26,7 @@ public class Main extends JFrame {
 
         add(new JLabel("Resultado:"));
         JTextField resultado = new JTextField();
-        resultado.disable();
+        resultado.setEditable(false);
         add(resultado);
 
         JButton calcular = new JButton("Calcular");
