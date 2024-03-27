@@ -19,6 +19,8 @@ public class Main extends JFrame {
         add(new JLabel("Numero 1:"));
         JTextField numero1 = new JTextField();
         add(numero1);
+
+        add(new JLabel("Numero 2:"));
     }
 
     public static void main(String[] args) {
