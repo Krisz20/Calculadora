@@ -15,6 +15,8 @@ public class Main extends JFrame {
         setLocationRelativeTo(null);
 
         setLayout(new GridLayout(4, 2));
+
+        add(new JLabel("Numero 1:"));
     }
 
     public static void main(String[] args) {
