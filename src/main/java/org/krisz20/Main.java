@@ -1,7 +1,21 @@
 package org.krisz20;
 
-public class Main {
+import javax.swing.*;
+import javax.swing.plaf.metal.MetalLookAndFeel;
+import java.awt.*;
+
+public class Main extends JFrame {
+
+    public Main() {
+        setTitle("Calculadora");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(300, 150);
+        setResizable(false);
+        setVisible(true);
+        setLocationRelativeTo(null);
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new Main();
     }
 }
