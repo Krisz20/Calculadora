@@ -25,6 +25,8 @@ public class Main extends JFrame {
         add(numero2);
 
         add(new JLabel("Resultado:"));
+        JTextField resultado = new JTextField();
+        add(resultado);
     }
 
     public static void main(String[] args) {
