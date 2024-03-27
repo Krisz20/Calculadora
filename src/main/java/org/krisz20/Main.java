@@ -13,6 +13,8 @@ public class Main extends JFrame {
         setResizable(false);
         setVisible(true);
         setLocationRelativeTo(null);
+
+        setLayout(new GridLayout(4, 2));
     }
 
     public static void main(String[] args) {
