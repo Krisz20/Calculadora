@@ -34,6 +34,13 @@ public class Main extends JFrame {
             resultado.setText(numero1.getText() + numero2.getText());
         });
         add(calcular);
+
+        try {
+            UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        SwingUtilities.updateComponentTreeUI(this);
     }
 
     public static void main(String[] args) {
